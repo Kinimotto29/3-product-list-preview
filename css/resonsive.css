@@ -1,0 +1,37 @@
+@media screen and (max-width: 479px) {
+    #product-list {
+        width: 100%;
+    }
+    .product {
+        width: 99%;
+    }
+    .mask {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 992px) {
+    #product-list {
+        width: 100%;
+    }
+    .product {
+        width: 48%;
+    }
+    .mask {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    #product-list {
+        width: 100%;
+        margin: 24vh auto;
+    }
+    .product {
+        width: 23%;
+        left: .4%;
+    }
+    .mask {
+        width: 100%;
+    }
+}

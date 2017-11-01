@@ -3,10 +3,10 @@
 }
 body {
     background-color: #98fb98;
+    margin: 0;
 }
 #product-list {
     width: 1300px;
-    margin: 0 auto;
     position: relative;
 }
 .product, .mask {
@@ -19,7 +19,7 @@ body {
 .mask {
     margin: 0;
     color: rgba(255, 255, 255, 0);
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 .mask-link {
     font-size: 3em;
